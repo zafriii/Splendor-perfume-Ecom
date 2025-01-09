@@ -144,7 +144,7 @@ const BillingDetailsPage = () => {
       const data = await response.json();
   
       if (paymentMethod === "prePayment" && data.id) {
-        const stripe = await loadStripe("pk_test_51QeHGOJeTHHpZyoZhVKDqWMka0v17CjEPl1xJoMlgFNU8vxQPPXYWqEZEpTWxvZrQDtYcRhKc4fLCImsV44m0Z6m0008A5T2mc");
+        const stripe = await loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
         const result = await stripe.redirectToCheckout({ sessionId: data.id });
   
         if (result.error) {

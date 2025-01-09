@@ -1,18 +1,3 @@
-// import React from 'react'
-
-// function Order() {
-//   return (
-//     <div className='order'>
-//       <h2>Thanks for Ordering</h2>
-//       <p>Delivery : Within 5 days</p>
-      
-//     </div>
-//   )
-// }
-
-// export default Order
-
-
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa'; // Import tick mark icon
 import './order.css'; // Add the CSS file for styling

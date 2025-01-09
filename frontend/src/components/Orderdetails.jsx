@@ -10,8 +10,6 @@ const Orderdetails = () => {
   const { user, isLoggedin } = useAuth();  // Using your custom auth hook
 
   
-
-
   useEffect(() => {
     if (!user) {
       console.log('User is not logged in yet.');
@@ -72,52 +70,7 @@ const Orderdetails = () => {
 
   // Render orders if available
   return (
-    // <div className="order-page">
-    //   <h2>Your Orders {orders.length}</h2>
-    //   {orders.length > 0 ? (
-    //     <div className="order-list">
-    //       {orders.map((order) => (
-    //         <div key={order._id} className="order-item">
-    //           <h3>Order ID: {order._id}</h3>
-    //           <p><strong>Payment Method:</strong> {order.paymentMethod}</p>
-    //           <p><strong>Order Status:</strong> {order.orderStatus}</p>
-    //           <p><strong>Order Date:</strong> {new Date(order.orderDate).toLocaleString()}</p>
-
-    //           <div className="billing-details">
-    //         <h4>Billing Details</h4>
-    //         <p><strong>Name:</strong> {order.billingDetails.name}</p>
-    //         <p><strong>Phone:</strong> {order.billingDetails.phone}</p>
-    //         <p><strong>Email:</strong> {order.billingDetails.email}</p>
-    //         <p><strong>City:</strong> {order.billingDetails.city}</p>
-    //         <p><strong>Address:</strong> {order.billingDetails.address}</p>
-    //       </div>
-
-    //         <div className="order-cart-items">
-    //             <h4>Cart Items</h4>
-    //             {order.cartItems.map((item, index) => (
-    //               <div key={index} className="cart-item">
-    //                 <p><strong>Product Name:</strong> {item.name}</p>
-    //                 <p><strong>Quantity:</strong> {item.quantity}</p>
-    //                 <p><strong>Price:</strong> {item.price} tk</p>
-    //                 <p><strong>Total:</strong> {item.price * item.quantity} tk</p>
-    //               </div>
-    //             ))}
-    //           </div>
-
-    //           <div className="order-summary">
-    //             <p><strong>Subtotal:</strong> {order.subtotal} tk</p>
-    //             <p><strong>Delivery Charge:</strong> {order.deliveryCharge} tk</p>
-    //             <p><strong>Total Price:</strong> {order.totalPrice} tk</p>
-    //           </div>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   ) : (
-    //     <p>You have no orders.</p>
-    //   )}
-    // </div>
-
-
+   
 
 <div className="order-page">
   

@@ -33,32 +33,6 @@ function Info() {
                 </div>
             </Slider>
 
-
-            {/* <div className="slider-container">
-            <Slider {...settings} className="image-slider">
-                <div>
-                <img className="slider-image" src="/images/remove.png" alt="Slide 1" />
-                </div>
-                <div>
-                <img className="slider-image" src="/images/remove2.png" alt="Slide 2" />
-                </div>
-                <div>
-                <img className="slider-image" src="/images/remove3.png" alt="Slide 3" />
-                </div>
-            </Slider>
-            <div className="glass-arrow">
-                <i className="arrow-icon">&darr;</i>
-            </div>
-            </div> */}
-
-
-
-
-
-
-
-
-
             {/* Text Content */}
             <div className="text-overlay1">
                 <div className='info1'>

@@ -84,60 +84,6 @@ exports.removeFromCart = async (req, res) => {
   }
 };
 
-
-
-// exports.increaseQuantity = async (req, res) =>{
-//   try {
-//     const cartId = req.params.id;
-//     const cartItem = await Cart.findById(cartId); // Use the correct model for cart items
-
-//     if (!cartItem) {
-//         return res.status(404).json({ message: 'Cart item not found' });
-//     }
-
-//     cartItem.quantity += 1; // Increment quantity
-//     await cartItem.save(); // Save the updated cart item
-
-//     res.status(200).json({ cartItems: await Cart.find() }); // Return the updated cart
-// } catch (error) {
-//     console.error('Error incrementing cart item:', error);
-//     res.status(500).json({ message: 'Error updating quantity', error });
-// }
-// }
-
-
-// exports.decreaseQuantity = async (req, res) =>{
-//   try {
-//     const cartId = req.params.id;
-//     const cartItem = await Cart.findById(cartId);
-
-//     if (!cartItem) {
-//         return res.status(404).json({ message: 'Cart item not found' });
-//     }
-
-//     if (cartItem.quantity > 1) {
-//         cartItem.quantity -= 1; // Decrement quantity only if > 1
-//         await cartItem.save();
-//     } else {
-//         return res.status(400).json({ message: 'Quantity cannot be less than 1' });
-//     }
-
-//     res.status(200).json({ cartItems: await Cart.find() }); // Return the updated cart
-// } catch (error) {
-//     console.error('Error decrementing cart item:', error);
-//     res.status(500).json({ message: 'Error updating quantity', error });
-// }
-// }
-
-
-
-
-
-
-
-
-
-
 exports.increaseQuantity = async (req, res) =>{
   try {
     const cartId = req.params.id;
@@ -183,20 +129,6 @@ exports.decreaseQuantity = async (req, res) =>{
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 exports.clearCart = async (req, res) => {
   try {
     // Remove all items from the cart for the logged-in user
@@ -216,9 +148,6 @@ exports.clearCart = async (req, res) => {
     res.status(500).json({ message: 'Error clearing cart', error: error.message });
   }
 };
-
-
-
 
 exports.proceedToCheckout = async (req, res) => {
   try {
@@ -260,8 +189,6 @@ exports.proceedToCheckout = async (req, res) => {
     res.status(500).json({ message: 'Error during checkout', error: error.message });
   }
 };
-
-
 
 
 exports.getCheckoutDetails = async (req, res) => {

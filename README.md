@@ -34,4 +34,4 @@ Welcome to **Splendor**, an elegant e-commerce platform where you can explore, b
 ## 🔗 Live Demo
 
 Check out the live version of Splendor:  
-[https://splendor-perfume.netlify.app](#) 
+<a href = 'https://splendor-perfume.netlify.app' > </a>

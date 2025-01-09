@@ -2,6 +2,9 @@
 
 Welcome to **Splendor**, an elegant e-commerce platform where you can explore, buy, and enjoy perfumes. The platform provides an engaging user experience with features such as product recommendations, wishlist management, secure payment options, order tracking, and much more.
 
+## 🔗 Live Demo 
+<a href = 'https://splendor-perfume.netlify.app' > https://splendor-perfume.netlify.app  </a>
+
   <img src="https://i.postimg.cc/zDcHS1Zx/Screenshot-2025-01-09-195446.png" alt="Watch the Demo" style="max-width: 100%; height: auto;" />
 
 ---
@@ -31,9 +34,4 @@ Welcome to **Splendor**, an elegant e-commerce platform where you can explore, b
 - **Authentication**: JWT-based secure authentication
 - **Deployment**: Deployed using [render/Netlify](#) 
 
----
 
-## 🔗 Live Demo
-
-Check out the live version of Splendor:  
-<a href = 'https://splendor-perfume.netlify.app' > https://splendor-perfume.netlify.app  </a>

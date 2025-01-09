@@ -134,60 +134,6 @@
   }
 
 
- 
-/* .coupon-code {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-.coupon-code label {
-  font-size: 16px;
-  margin-bottom: 8px;
-  color: #333;
-}
-
-.coupon-code input {
-  padding: 8px;
-  font-size: 14px;
-  width: 200px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-  transition: border 0.3s ease;
-}
-
-.coupon-code input:focus {
-  border-color: #ff6f61;
-}
-
-.coupon-code button {
-  padding: 8px 16px;
-  font-size: 14px;
-  background: linear-gradient(to right, #ff6f61, #ff94d9);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
-}
-
-.coupon-code button:hover {
-  background-color: #ff6f61;
-}
-
-.coupon-code button:active {
-  background-color: #ff6f61;
-} */
-
-
-
-
-
-
-
 
 .apply-coupon p{
   margin-top: 20px;

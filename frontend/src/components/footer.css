@@ -1,0 +1,114 @@
+/* footer.css */
+.footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: #e94560; /* Tomato color for links */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #fff; /* White text on hover */
+  text-decoration: underline;
+}
+
+.upper-foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-links {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e94560; /* Tomato color underlines */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.become-member {
+  text-align: left;
+}
+
+.join-now-link {
+  display: inline-block;
+  color: #e94560;
+  background-color: transparent;
+  border: 2px solid #e94560;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.join-now-link:hover {
+  background-color: #e94560; /* Filled tomato color */
+  color: #000; /* Black text */
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  /* font-size: 20px; */
+  padding: 8px;
+  color: #fff;
+  background-color: #e94560;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #fff; /* White background */
+  color: #e94560; /* Tomato color for the icon */
+  transform: scale(1.1); /* Slightly larger on hover */
+}
+
+.lower-foot {
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #333; /* Light gray border */
+  padding-top: 20px;
+}
+
+.lower-foot a {
+  color: #e94560;
+  font-weight: 500;
+}
+
+.lower-foot a:hover {
+  color: #fff; /* White text on hover */
+}
+
+.lower-foot p{
+  margin-top: 20px;
+}

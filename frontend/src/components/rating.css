@@ -1,0 +1,51 @@
+/* .rating-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  } */
+
+  .rating-container {
+    
+    margin-top: 20px;
+    
+
+  }
+  
+  
+  .star {
+    color: gray;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .rating-summary {
+    margin-top: -20px;
+   
+  }
+
+  .rating-summary p{
+    font-size: 16px;
+  }
+
+  .rating-summary span{
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .average-stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  

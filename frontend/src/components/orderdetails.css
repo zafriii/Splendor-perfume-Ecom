@@ -1,0 +1,214 @@
+/* .order-page {
+    padding: 20px;
+    font-family: 'Inter';
+  }
+
+  .order-page .username{
+    font-style: italic;
+    color: #e94560;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .order-table th, .order-table td {
+    padding: 8px;  
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;  
+  }
+  
+  .order-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .order-table td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;  
+  }
+  
+  .order-table td ul li {
+    margin-bottom: 5px;
+    font-size: 14px; 
+  }
+  
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-page h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+
+  .no-orders{
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    margin-top: 30px;
+  } */
+
+
+
+
+
+  .order-page {
+    padding: 20px;
+    font-family: 'Inter';
+  }
+  
+  .order-page .username {
+    font-style: italic;
+    color: #e94560;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+  }
+  
+  .order-table th, .order-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .order-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .order-table td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  .order-table td ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .order-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .order-page h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-page h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .no-orders {
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Responsive Styles */
+  
+  /* For small screens (up to 768px) */
+  @media (max-width: 768px) {
+    .order-page h2 {
+      font-size: 20px; /* Smaller header size for mobile */
+    }
+  
+    .order-table th, .order-table td {
+      font-size: 12px; /* Smaller font size for mobile */
+      padding: 6px; /* Reduced padding for mobile */
+    }
+  
+    .order-table td ul li {
+      font-size: 12px; /* Reduced font size for list items */
+    }
+  
+    .order-table th {
+      font-size: 14px; /* Smaller font size for table headers */
+    }
+  
+    .order-page .username {
+      font-size: 18px; /* Adjusted username font size for mobile */
+    }
+  
+    .order-table {
+      font-size: 12px; /* Adjust font size in table */
+    }
+  
+    .order-table td {
+      padding: 10px 5px; /* Adjust padding for mobile screens */
+    }
+  
+    .order-page h2 {
+      font-size: 18px;
+    }
+  
+    .order-table {
+      border: 0; /* Remove border for better mobile experience */
+      display: block;
+      overflow-x: auto; /* Horizontal scroll for table */
+      white-space: nowrap;
+    }
+  
+    .order-table th, .order-table td {
+      text-align: left;
+      padding: 6px;
+    }
+  
+    .no-orders {
+      font-size: 16px; /* Adjust text size for no orders message */
+    }
+  }
+  
+  /* For very small screens (up to 480px) */
+  @media (max-width: 480px) {
+    .order-page h2 {
+      font-size: 16px; /* Even smaller header size */
+    }
+  
+    .order-table th, .order-table td {
+      font-size: 10px; /* Smaller font size for small screens */
+      padding: 4px; /* Adjust padding for very small screens */
+    }
+  
+    .order-table td ul li {
+      font-size: 10px; /* Reduced font size for list items */
+    }
+  
+    .no-orders {
+      font-size: 14px; /* Adjust font size for no orders message */
+    }
+  }
+  

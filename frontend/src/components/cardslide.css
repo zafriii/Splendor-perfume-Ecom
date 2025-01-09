@@ -1,0 +1,463 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+.feature h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CD2F42;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.card img{
+    width: 250px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: -250px;
+    
+
+}
+
+
+.card {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+    border: 1px solid #ccc; 
+    overflow: visible; 
+}
+
+.card img {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 120px; 
+    left: 10px; 
+}
+
+
+
+.feature-card{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+
+}
+
+.card{
+    
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin-left:50px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 20px;
+}
+
+.card .saree{
+    height: 350px;
+    width: 250px;
+    margin-top: -190px;
+    margin-left: 55px;
+}
+
+.card .pant{
+    height: 350px;
+    width: 340px;
+    margin-top: -180px;
+    margin-left: 25px;
+}
+
+.card p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Poppins', sans-serif;
+    margin-top: 280px;
+}
+
+
+
+
+
+@media(max-width:1208px){
+
+
+    .feature-card img{
+        width: 220px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: -150px;
+    
+    }
+
+    .card .saree{
+        height: 350px;
+        width: 220px;
+        margin-top: -90px;
+        margin-left: 55px;
+    }
+
+    .card{
+    
+        height: 400px;
+        width: 300px;
+       
+    }
+}
+
+
+@media(max-width:1008px){
+
+    .feature h2{
+
+        margin-top: 200px;
+
+    }
+
+    .feature-card{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 250px;
+        
+                 
+    }
+
+    .feature-card img{
+        width: 250px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: -150px;
+    
+    }
+
+
+    .card{
+    
+        height: 400px;
+        width: 350px;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .card .saree{
+        height: 350px;
+        width: 250px;
+        margin-top: -90px;
+        margin-left: 55px;
+    }
+}
+
+
+
+@media(max-width:808px){
+
+    .feature h2{
+
+        margin-top: 200px;
+
+    }
+
+    .feature-card{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 150px;      
+                 
+    }
+
+
+    .feature-card img{
+        width: 250px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: -150px;
+    
+    }
+
+
+    .card{
+    
+        height: 400px;
+        width: 350px;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .card .saree{
+        height: 350px;
+        width: 250px;
+        margin-top: -90px;
+        margin-left: 55px;
+    }
+}
+
+
+@media(max-width:658px){
+
+    .feature h2{
+
+        margin-top: 200px;
+
+    }
+
+    .feature-card{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        margin-left: 80px;         
+    }
+
+    .feature-card img{
+        width: 250px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: -150px;
+    
+    }
+
+
+    .card{
+    
+        height: 400px;
+        width: 350px;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .card .saree{
+        height: 350px;
+        width: 250px;
+        margin-top: -90px;
+        margin-left: 55px;
+    }
+    
+    
+
+    
+}
+
+
+
+
+@media(max-width:558px){
+
+    .feature h2{
+
+        margin-top: 200px;
+
+    }
+
+    .feature-card{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        
+        margin-left: 30px;         
+    }
+
+    .feature-card img{
+        width: 250px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: -150px;
+    
+    }
+
+
+    .card{
+    
+        height: 400px;
+        width: 350px;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .card .saree{
+        height: 350px;
+        width: 250px;
+        margin-top: -90px;
+        margin-left: 55px;
+    }
+    
+    
+}   */
+
+
+
+
+
+
+
+/* @media(max-width:600px){
+    
+.feature {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature-card {
+    padding: 10px;
+  }
+  
+  .card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+} */
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.feature {
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.feature h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CD2F42;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: "Kaushan Script", cursive;
+    font-family: 'Inter';
+}
+
+.card {
+    position: relative;
+    width: 350px; 
+    height: 400px; 
+    border: 1px solid #ccc; 
+    overflow: visible; 
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 auto 50px auto; 
+}
+
+/* .card img {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 30px; 
+} */
+
+.card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 280px;
+    font-size: 20px;
+}
+
+
+
+
+.feature-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.feature-card img{
+    width: 150px;
+    height: 60px;
+}
+
+
+/* @media(max-width:1100px){
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+}
+
+} 
+
+@media(max-width:1920px){
+
+    .card{
+        
+        height: 450px;
+        width: 500px;
+        
+    }
+
+    .feature-card img{
+       
+        margin-left: 100px;
+             
+     }
+
+   
+}
+
+
+@media(max-width:1400px){
+    .card {
+        position: relative;
+        width: 350px; 
+        height: 400px; 
+        border: 1px solid #ccc; 
+        overflow: visible; 
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin: 0 auto 50px auto; 
+    }
+    .feature-card img{
+       
+        margin-left: 30px;
+             
+     }
+}
+
+
+@media(max-width:600px){
+
+    .feature{
+       margin-top: 80px;
+    }
+    
+    }  */

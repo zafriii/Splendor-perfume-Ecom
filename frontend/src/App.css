@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Julius+Sans+One&family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.light-mode {
+    color: #000000;   
+}
+
+
+
+.dark-mode .inner{
+    background: linear-gradient(to right, #FFFFFF, #000000);
+}
+
+
+.light-mode .nav-links a:hover{  
+    border: 2px solid #333;
+}
+
+
+.dark-mode .nav-links a:hover{
+   
+    border: 2px solid white;
+    color: white;
+    
+}
+
+.dark-mode {
+    background-color: #302d2d;
+    color: #ffffff;
+    
+}
+
+/* .dark-mode .nav {
+    background-color: black;
+    color: white;
+}
+
+.light-mode .nav-logo h1{
+    color: black;
+} */
+
+
+.dark-mode .nav-logo h1{
+    color: white;
+}
+
+.dark-mode .nav a{
+    color: white;
+}
+
+.dark-mode .nav-icon{
+    color: white;
+}
+
+
+.dark-mode .modes button{
+    color: white;
+}
+
+.dark-mode .bar{
+    background-color: white;
+}
+
+.light-mode .bar{
+    background-color: black;
+}
+
+.dark-mode .upper-foot{
+    background-color: black;
+    color: #f7e6e9;
+}
+
+.dark-mode .upper-foot a{
+    color: #f7e6e9;
+}
+
+.dark-mode .lower-foot{
+    color: #f7e6e9;
+}
+
+.dark-mode .banner{
+    background-color: #251f21;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+.theme-toggle-btn  {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+      
+}
+
+button:focus {
+    outline: none;
+}
+
+input{
+    padding: 10px;   
+}
+
+.light-mode .product-card{
+      background: #fff; 
+      border: 1px solid #ddd;
+}
+
+.dark-mode .products h2{
+    color: #f7e6e9;
+    
+}
+
+
+.dark-mode .product-card {
+    color: #f7e6e9;
+    background-color: #251f21;
+}
+
+.dark-mode .product-card h2{
+    color: #f7e6e9;
+    background-color: #251f21;
+}
+
+.dark-mode .product-card p{
+    color: #f7e6e9;
+    background-color: #251f21;
+}
+
+.dark-mode .single-data h1{
+    color: white;
+}
+
+
+.dark-mode .form-container{
+    background-color: #251f21;
+}
+
+.dark-mode .form-container input{
+    color: #f7e6e9;
+}
+.dark-mode .box2 h3{
+    color: #f7e6e9;
+}
+
+.dark-mode .email{
+    background-color: #251f21;
+    color: #ddd;
+}
+  
+.dark-mode .phn{
+    background-color: #251f21;
+    color: #ddd;
+}
+
+.dark-mode  .address{
+    background-color: #251f21;
+    color: #ddd;
+}
+
+.dark-mode .cart-container .cart-table td {
+    color: white;
+    background-color: #333;
+}
+
+.dark-mode .cart-total{
+    color: white;
+}
+
+.dark-mode .bill-container{
+    color: white;
+    background-color: #333;
+}
+
+.dark-mode .details .input-data input
+{
+       
+    border: none;
+    outline: none;
+    background-color: #333;
+    border-bottom: 2px solid silver;    
+   
+}
+
+
+.dark-mode .bill-container label{
+    color: white;
+    
+}
+
+.dark-mode .submitted-data{
+    color: white;
+    background-color: #333;
+}
+
+.dark-mode .card{
+    color: white;
+    background-color: #333;
+}
+
+.dark-mode .box-texts h1{
+    color: white;
+}
+
+.dark-mode .box1{
+    background-color: #251f21 
+}
+
+.dark-mode .box2{
+    background-color: #333;
+}
+
+.dark-mode .disc-box{
+    background-color: #333; 
+}
+
+.dark-mode .news{
+    background-color: #333; 
+}
+
+.dark-mode .news input{
+    background-color: #333; 
+    outline: none;
+    color: white;  
+}
+
+.dark-mode .logos{
+    background-color: #333; 
+}
+
+.dark-mode .prev{
+    background-color: #333; 
+  }
+
+  .dark-mode .next{
+    background-color: #333; 
+  }
+
+  .order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .order p{
+    margin-top: 20px;
+  } 
+
+
+
+.dark-mode .disc-box{
+    background-color: transparent;
+}
+
+.dark-mode .cart-container h1{
+    color: white;
+}
+
+.dark-mode .search-container input{
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .suggestions-list {
+    background-color: #333;
+}
+
+.dark-mode .suggestions-list li:hover {
+    background-color: #504c4c;
+}
+
+
+.light-mode .sidebar {
+    background-color: white;
+    color: black;
+
+}
+
+.light-mode .bars{
+    color: black;
+}
+
+.light-mode .top_section p {
+    color: black;
+}
+
+.light-mode .filter button {
+    border: 2px solid black;
+    border-radius: 55px;
+    font-size: 17px;
+    background-color: transparent;
+    color: black;
+}
+
+.light-mode .filter button:hover {
+    background-color: black;
+    color: white;
+}
+
+.light-mode .sort-by-price label{
+   color: black;
+}
+
+
+.dark-mode .sidebar {
+    background-color: black;
+    color: rgb(207, 199, 199);
+
+}
+
+.dark-mode .eggshape-text h2{
+ color: white;
+}
+
+.dark-mode .eggshape-container {
+    background-color: #5a5353;
+    background: #251f21;
+}
+
+.dark-mode .features-section {
+    background-color: #332e2e;
+    color: white; /* Light background */
+}
+
+.dark-mode .features-section h2{
+    color: white; /* Light background */
+}
+
+.dark-mode .feature-card {
+    background-color: #494343;
+    color: #ddd;
+}
+
+  
+.dark-mode .feature-card p {  
+    color: #dbd4d4;   
+}
+  
+.dark-mode .eggshape-text p button{
+    border: 2px solid white;
+    color: white;
+}
+
+.dark-mode .star-rating .review-cnt {  
+    color: white;   
+}
+  
+
+.dark-mode .cart-page h2{
+    color: white;
+}
+
+.dark-mode .empty-cart{
+    color: white;
+}
+
+.dark-mode .total-price p{
+    color: white;
+}
+
+.dark-mode .quantity-button{
+ color: white;
+}
+
+.dark-mode .quantity-button:hover{
+    color: rgb(76, 72, 72);
+}
+
+.dark-mode .checkout-details{
+    background-color: rgb(76, 72, 72);
+}
+
+.dark-mode .checkout-details h2{
+    color: white;
+}
+
+.dark-mode .checkout-details li {
+    background-color: rgb(112, 106, 106);
+}
+
+.checkout-details li:hover {
+    background-color: #f0f0f0;
+    color: #332e2e;
+}
+
+.dark-mode .billing-form{
+    background-color: rgb(76, 72, 72);
+}
+
+.dark-mode .billing-form h2{
+    color: white;
+}
+
+
+.dark-mode .billing-form input{
+    background-color: rgb(76, 72, 72);
+    color: white;
+}
+
+.dark-mode .billing-form input::placeholder{
+    color: rgb(216, 201, 201);
+}
+  
+.dark-mode .billing-form label{   
+    color: white;
+}
+  
+
+.dark-mode .billing-details-container{
+    background-color: rgb(76, 72, 72);
+}
+
+.dark-mode .billing-details-left h2,  .dark-mode .billing-details-left p, .dark-mode .billing-details-left strong{
+    color: white;
+}
+
+.dark-mode .apply-coupon h3{
+ color: white;
+}
+
+.dark-mode .payment h3{
+    color: white;
+}
+
+.dark-mode .payment-options{
+    color: white;
+}
+
+.dark-mode .coupon-code input{
+    background-color: rgb(76, 72, 72);
+    color: white;
+}
+
+.dark-mode .billing-details-right{
+    background-color: rgb(99, 93, 93);
+}
+
+.dark-mode  .order {
+    background-color: rgb(76, 72, 72);
+}
+
+.dark-mode  .order h2, .dark-mode  .order p{
+    color: white;
+}
+
+.dark-mode .perfume-find h2{
+ color: white;
+}
+
+.dark-mode .order-table th {
+ background-color: #474545;
+ color: white;
+}
+
+.dark-mode .order-table tr:nth-child(even) {
+    background-color: #333;
+}
+
+.dark-mode .order-table tr:hover {
+    background-color: #464040;
+    color: white;
+}
+
+.dark-mode .order-page h2{
+    color: white;
+}
+
+.dark-mode .form {
+    background: #6e6b6b;
+}
+
+.dark-mode .form__title {
+    color: white;
+}
+
+.dark-mode .form__input {
+    background: #6e6b6b;
+    color: white;
+}
+
+.dark-mode .toggle-password , .dark-mode .form__social-text, .dark-mode .form__social-text a, .dark-mode .forgot a{
+    color: white;
+}
+
+.dark-mode .form__input::placeholder{
+    color: white;
+}
+
+.dark-mode .profile-dropdown {
+    background-color: #555252;
+}
+
+.dark-mode .member   {
+    background: #3d3d3d;
+}
+
+.dark-mode  .member h3 , .dark-mode  .member p{
+    color: white;
+}
+
+.dark-mode .coupon-card {
+    background: #555252;
+
+}
+
+.dark-mode .feedback{
+    background-color: #2b2929;
+}
+
+.dark-mode .feedback-texts h2, .dark-mode .feedback-texts p, .dark-mode .feedback-section h3{
+    color: white;
+}
+
+.dark-mode .feedback-section textarea{
+ background-color: #302d2d;
+ color: white;
+}
+
+.dark-mode .text-container h1{
+    color: white;
+}
+
+.dark-mode .about h2{
+    color: white; 
+}
+   
+.dark-mode .search-container {
+    background-color: #302d2d;
+}
+
+.dark-mode .search-container input{
+    background-color: #302d2d;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #7e7474;
+}

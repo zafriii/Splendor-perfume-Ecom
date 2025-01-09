@@ -1,0 +1,23 @@
+.about{
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.about img{
+    height: 500px;
+    width: 50%;
+    margin-left: 30%;
+}
+.about h2{
+    margin-top: 50px;
+    font-family:  'Inter';
+}
+
+.about p{
+    margin-top: 10px;
+}
+
+.about li{
+    margin-top: 10px;
+}

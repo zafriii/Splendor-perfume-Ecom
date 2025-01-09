@@ -1,0 +1,164 @@
+/* Global Styles */
+.perfume-find{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 30px;
+  }
+
+  .prefer span{
+    color:#e94560;;
+    font-style: italic;
+  }
+
+  .prefer a{
+    color: #e94560;
+  }
+  
+  .perfume-finder-container {
+    background: linear-gradient(to right, #ff6f61, #ff94d9); /* Gradient background */
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 30px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .perfume-finder-container:hover {
+    transform: scale(1.02);
+  }
+  
+  
+.perfume-finder-container h3{
+  font-size: 25px;
+}
+
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Option Button Styling */
+  .option-button {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Hover Effect for Buttons */
+  .option-button:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .option-button:focus {
+    outline: none;
+  }
+  
+  /* Result Container */
+  .result-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .result-container h2 {
+    font-size: 30px;
+    color: black;
+    
+  }
+  
+  .result-container h3 {
+    font-size: 30px;
+    color: black;
+    color: white;
+  }
+  
+  .result-container p {
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+    color: white
+  }
+  
+  .result-container .result-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* border-radius: 15px; */
+    margin-top: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .result-container .view-product-link {
+    text-decoration: none;
+    background-color: white;   
+    padding: 10px 10px;
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 160px;
+    cursor: pointer;   
+  }
+
+  .result-container .view-product-link:hover{
+    background-color: #221f1f;
+  }
+
+  .result-container .view-product-link a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .result-container .view-product-link a:hover{
+    color: white;
+  }
+  
+  /* No Matching Result Styling */
+  .no-match {
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+
+    .perfume-find{
+      width:90%;
+
+      margin-left: 5%;
+    }
+
+    .perfume-finder-container {
+      padding: 25px;
+      /* margin-left: 10%; */
+    }
+  
+    
+    .option-button {
+      width: 100%;
+    }
+
+   
+  }
+  

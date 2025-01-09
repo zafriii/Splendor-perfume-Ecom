@@ -1,0 +1,97 @@
+.feedback {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #55555583;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    margin-top: 50px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.feedback-texts h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.feedback-texts p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+.feedback-section h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.feedback-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-section input,
+.feedback-section textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.feedback-section textarea {
+    resize: none;
+    height: 100px;
+}
+
+.feedback-section p {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 0;
+}
+
+.feed-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.feed-btns button {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.redirect-feedback {
+    /* background: #242322; */
+    background: linear-gradient(90deg, #ff6f61, #e94560);
+    color: #fff;
+}
+
+.redirect-feedback:hover {
+    background: #1a1919;
+    background-color: #e94560;
+}
+
+.submit-feedback {
+    background: #242322;
+    background: linear-gradient(90deg, #ff6f61, #e94560);
+    color: #fff;
+}
+
+.submit-feedback:hover {
+    background: #1a1919;
+    background-color: #e94560;
+}
+

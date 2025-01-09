@@ -2,7 +2,7 @@
 
 Welcome to **Splendor**, an elegant e-commerce platform where you can explore, buy, and enjoy perfumes. The platform provides an engaging user experience with features such as product recommendations, wishlist management, secure payment options, order tracking, and much more.
 
-  <img src="https://i.ibb.co/3T17YQw/image.png](https://i.postimg.cc/zDcHS1Zx/Screenshot-2025-01-09-195446.png" alt="Watch the Demo" style="max-width: 100%; height: auto;" />
+  <img src="https://i.postimg.cc/zDcHS1Zx/Screenshot-2025-01-09-195446.png" alt="Watch the Demo" style="max-width: 100%; height: auto;" />
 
 ---
 

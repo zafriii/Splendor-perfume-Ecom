@@ -1,4 +1,4 @@
-# Splendor - Ecommerce Perfume Site 🌸
+# Splendor - Ecommerce Perfume Site 🌸🛒🛍️
 
 Welcome to **Splendor**, an elegant e-commerce platform where you can explore, buy, and enjoy perfumes. The platform provides an engaging user experience with features such as product recommendations, wishlist management, secure payment options, order tracking, and much more.
 
